@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import LevelingTest from "@/components/LevelingTest";
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -140,7 +141,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="text-center mb-16">
             <p className="uppercase tracking-widest text-sm font-semibold text-[#67534f] mb-4">Experiência</p>
-            <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-[#b5835a] via-[#dec8ab] to-[#c99a71] bg-clip-text text-transparent animate-gradient drop-shadow-sm pb-2">Do Mundo Real para a Sua Sala</h2>
+            <h2 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-[#4a3b32] via-[#67534f] to-[#4a3b32] bg-clip-text text-transparent animate-gradient drop-shadow-sm pb-2">Do Mundo Real para a Sua Sala</h2>
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
@@ -186,7 +187,7 @@ export default function Home() {
           </div>
           <div className="order-1 lg:order-2">
             <p className="uppercase tracking-widest text-sm font-semibold text-[#67534f] mb-4">O Método</p>
-            <h2 className="text-4xl md:text-5xl font-extrabold mb-6 bg-gradient-to-r from-[#38383c] via-[#dec8ab] to-[#38383c] bg-clip-text text-transparent animate-gradient drop-shadow-sm pb-2">Não Existe Um Jeito Só</h2>
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-6 bg-gradient-to-r from-[#38383c] via-[#5a5a60] to-[#38383c] bg-clip-text text-transparent animate-gradient drop-shadow-sm pb-2">Não Existe Um Jeito Só</h2>
             <p className="text-[#4d4d51] text-xl mb-12">
               Cada pessoa aprende de forma diferente. O método da Amanda começa por você. Do diagnóstico ao resultado — um caminho único para cada aluno.
             </p>
@@ -215,7 +216,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto grid lg:grid-cols-2 gap-16">
           <div>
             <p className="uppercase tracking-widest text-sm font-semibold text-[#67534f] mb-4">Resultados</p>
-            <h2 className="text-4xl font-extrabold mb-10 bg-gradient-to-r from-[#b5835a] via-[#dec8ab] to-[#c99a71] bg-clip-text text-transparent animate-gradient drop-shadow-sm pb-2">Fluência + Prova = Aprovação</h2>
+            <h2 className="text-4xl font-extrabold mb-10 bg-gradient-to-r from-[#4a3b32] via-[#67534f] to-[#4a3b32] bg-clip-text text-transparent animate-gradient drop-shadow-sm pb-2">Fluência + Prova = Aprovação</h2>
             
             <div className="space-y-8">
               <div className="flex gap-4 items-start">
