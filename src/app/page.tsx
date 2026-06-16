@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import LevelingTest from "@/components/LevelingTest";
+import LegalModals from "@/components/LegalModals";
 
 export default function Home() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -394,10 +395,7 @@ export default function Home() {
           <p className="text-sm text-[#a3a3a8]">
             &copy; {new Date().getFullYear()} Amanda Cavalcante. Todos os direitos reservados.
           </p>
-          <div className="flex gap-6 text-sm text-[#a3a3a8]">
-            <a href="#" className="hover:text-[#38383c] transition-colors">Termos de Serviço</a>
-            <a href="#" className="hover:text-[#38383c] transition-colors">Política de Privacidade</a>
-          </div>
+          <LegalModals />
         </div>
       </footer>
 
